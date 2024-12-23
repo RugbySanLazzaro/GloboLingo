@@ -165,3 +165,22 @@ footer .social a {
 footer .social a:hover {
     color: #ff6f61;
 }
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    min-height: 80vh; /* Fa in modo che la sezione occupi almeno l'80% dell'altezza dello schermo */
+    background-color: #f9f9f9; /* Sfondo chiaro per contrasto */
+}
+
+.about p {
+    max-width: 600px; /* Limita la larghezza del testo */
+    margin: 1rem 0; /* Spaziatura tra i paragrafi */
+    line-height: 1.6; /* Migliora la leggibilità */
+    font-size: 1.1rem; /* Dimensione leggibile */
+    color: #333; /* Colore del testo */
+}
+
