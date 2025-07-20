@@ -271,7 +271,8 @@ footer .social a:hover {
     .about p {
         font-size: 0.9rem;
     }
-    .donate-btn {
+    
+.donate-btn {
     display: inline-block;
     margin-top: 15px;
     padding: 12px 20px;
