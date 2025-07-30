@@ -306,3 +306,30 @@ footer .social a:hover {
 }
 
 }
+.unlock-info {
+    background-color: #f9f9f9;
+    border: 2px dashed #ff6f61;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    color: #2b3a42;
+    transition: background-color 0.3s;
+}
+
+.unlock-info a {
+    color: #2b3a42;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.unlock-info a:hover {
+    color: #ff6f61;
+}
+
+.unlock-info i {
+    margin-right: 8px;
+    color: #e4405f; /* Instagram pink */
+    font-size: 1.2rem;
+}
+
